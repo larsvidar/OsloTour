@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#aaa</color>
+    <color name="colorPrimaryDark">#888</color>
+    <color name="colorAccent">#FFFF00</color>
+    <color name="text_light">#FFF</color>
+    <color name="text_dark">#000</color>
+    <color name="background">#ddd</color>
 
+    <!-- Category colors -->
     <color name="category_events">#d7e8fc</color>
     <color name="category_restaurants">#d7fcde</color>
     <color name="category_museums">#ecd7fc</color>

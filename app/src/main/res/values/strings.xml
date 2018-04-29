@@ -8,4 +8,82 @@
     <string name="category_restaurants">Food</string>
     <string name="category_museums">Museums</string>
     <string name="category_historical">Historical</string>
+
+    <!-- Events -->
+    <string name="event1_title">X Games Norway</string>
+    <string name="event1_description">X Games Norway are being held in the middle of Oslo.</string>
+
+    <string name="event2_title">Oslo Pride</string>
+    <string name="event2_description">Norway\'s largest festival for the lesbian and gay population, with concerts, art exhibits, shows, film screenings, parties and political debates.</string>
+
+    <string name="event3_title">Oslo Medieval Festival</string>
+    <string name="event3_description">Traditional festival at Akershus fortress that takes you back in time to the period when Oslo became Norway\'s capital.</string>
+
+    <string name="event4_title">Norway\'s Constitution Day</string>
+    <string name="event4_description">The big children\'s parade and an abundance of flags are the central elements of Oslo\'s 17 May celebrations.</string>
+
+    <string name="event5_title">Oslo Independent Film Festival</string>
+    <string name="event5_description">Oslo Film Festival is a boutique independent film festival hosted in Oslo.</string>
+
+    <string name="event6_title">Øya Festival</string>
+    <string name="event6_description">In August every year the Øya Festival it draws around 60,000 music lovers to Oslo\'s east side.</string>
+
+    <!-- Restaurants -->
+    <string name="restaurant1_title">Ekeberg restaurant</string>
+    <string name="restaurant1_description"> Ekebergrestauranten has the choice between the outdoor restaurant, romantic veranda, cafe, sophisticated dining room or the private chamber.</string>
+
+    <string name="restaurant2_title">Maaemo</string>
+    <string name="restaurant2_description">Maaemo is a dining experience, with the owners recommending diners set aside a whole evening in order to fully appreciate and savor the set menu.</string>
+
+    <string name="restaurant3_title">Hanami</string>
+    <string name="restaurant3_description">Hanami is a Japanese fusion restaurant, and the only one in Oslo to practice the robata technique of grilling meat and fish.</string>
+
+    <string name="restaurant4_title">Hos Thea</string>
+    <string name="restaurant4_description">Hos Thea is aiming at providing a gourmet meal for a reasonable price in a homey environment.</string>
+
+    <string name="restaurant5_title">Alex Sushi</string>
+    <string name="restaurant5_description">High-ceilinged, contemporary Japanese restaurant with central bar, specializing in sushi and sashimi.</string>
+
+    <string name="restaurant6_title">Izakaya</string>
+    <string name="restaurant6_description">An informal restaurant and bar with Japanese style food and drinks.</string>
+
+
+    <!-- Museums -->
+    <string name="museum1_title">Astrup Fearnley Collection</string>
+    <string name="museum1_description">The Astrup Fearnley Collection is a collection of modern and contemporary art.</string>
+
+    <string name="museum2_title">Tjuvholmen Sculpture Park</string>
+    <string name="museum2_description">A Sculpture park designed by world-renowned architect Renzo Piano.</string>
+
+    <string name="museum3_title">The Viking Ship Museum</string>
+    <string name="museum3_description">The Viking Ship Museum shows discoveries from the Gokstad, Oseberg and Tune ships.</string>
+
+    <string name="museum4_title">Norwegian Museum of Cultural History</string>
+    <string name="museum4_description">One of the world\'s oldest and largest open-air museums, with 155 traditional houses from all parts of Norway and a stave church from the year 1200.</string>
+
+    <string name="museum5_title">Historical Museum</string>
+    <string name="museum5_description">The largest collection of items from pre-historic times and the Middle Ages found in Norway.</string>
+
+    <string name="museum6_title">Norwegian Museum of Science and Technology</string>
+    <string name="museum6_description">The national museum for technology, industry, science and medicine.</string>
+
+
+    <!-- Historical sites -->
+    <string name="site1_title">Medieval Oslo</string>
+    <string name="site1_description">Ruins from the first settlers in Oslo, from around 1000 AD to 1300 AD.</string>
+
+    <string name="site2_title">Kvadraturen</string>
+    <string name="site2_description">Kvadraturen was King Christian IV\'s town from the Renaissance.</string>
+
+    <string name="site3_title">Akershus Fortress</string>
+    <string name="site3_description">Akershus Castle and Fortress was built during the 1300s by king Håkon V.</string>
+
+    <string name="site4_title">Memorial cemetery</string>
+    <string name="site4_description">Æreslunden is Norway\'s main honorary burial ground. Famous Norwegians like Edvard Munch and Henrik Ibsen is buried here.</string>
+
+    <string name="site5_title">Akerselva River</string>
+    <string name="site5_description">Akerselva is a river that runs through the centre of Oslo, and has a vibrant history.</string>
+
+    <string name="site6_title">The house of Hen-Lovisa</string>
+    <string name="site6_description">The house was built in 1800 as sawmiller\'s house, and is named after a character from Oskar Braaten's books.</string>
 </resources>

@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="8dp">
+    android:layout_height="@dimen/item_height"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tour-title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Turist i egen by"
-        android:textStyle="bold"
-        android:layout_marginLeft="8dp"
-        android:textSize="16dp" />
+        android:layout_marginLeft="@dimen/text_margin_left"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/headlines"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/tour-image"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/turistiegenby" />
+        android:layout_height="@dimen/image_heigt" />
 
     <TextView
         android:id="@+id/tour-description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:text="En dag i året hvor Oslos borgere kan nyte byens kulturelle tilbud helt gratis."/>
+        android:layout_marginLeft="@dimen/text_margin_left"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/main_text" />
 
 </LinearLayout>
