@@ -4,5 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="category_events">#ffa3b2</color>
+    <color name="category_events">#d7e8fc</color>
+    <color name="category_restaurants">#d7fcde</color>
+    <color name="category_museums">#ecd7fc</color>
+    <color name="category_historic">#fcedd7</color>
 </resources>

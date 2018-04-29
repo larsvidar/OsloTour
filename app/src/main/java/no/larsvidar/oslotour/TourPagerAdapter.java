@@ -5,14 +5,20 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 public class TourPagerAdapter extends FragmentPagerAdapter {
+    //The titles of each tab
     private String tabTitles[] = {"Events", "Food", "Museums", "Historical"};
 
     public TourPagerAdapter(FragmentManager manager) {
         super (manager);
     }
 
+    /**
+     * @param position
+     * @return the right fragment according to position.
+     */
     @Override
     public Fragment getItem(int position) {
+        //Checks position and returns right fragment.
         if (position == 0) {
             return new EventsFragment();
         } else if (position == 1) {
@@ -24,11 +30,18 @@ public class TourPagerAdapter extends FragmentPagerAdapter {
         }
     }
 
+    /**
+     * @return number of tabs.
+     */
     @Override
     public int getCount() {
         return 4;
     }
 
+    /**
+     * @param position
+     * @return name of tabs.
+     */
     @Override
     public CharSequence getPageTitle(int position) {
         return tabTitles[position];

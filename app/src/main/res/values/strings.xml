@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">OsloTour</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Hello!</string>
+
+    <!-- Category names -->
+    <string name="category_events">Events</string>
+    <string name="category_restaurants">Food</string>
+    <string name="category_museums">Museums</string>
+    <string name="category_historical">Historical</string>
 </resources>

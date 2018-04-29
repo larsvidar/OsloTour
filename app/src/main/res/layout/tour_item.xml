@@ -2,9 +2,9 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_margin="18dp">
+    android:padding="8dp">
 
     <TextView
         android:id="@+id/tour-title"
@@ -13,11 +13,11 @@
         android:text="Turist i egen by"
         android:textStyle="bold"
         android:layout_marginLeft="8dp"
-        android:textSize="16dp"/>
+        android:textSize="16dp" />
 
     <ImageView
         android:id="@+id/tour-image"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/turistiegenby" />
 
@@ -25,6 +25,7 @@
         android:id="@+id/tour-description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
         android:text="En dag i året hvor Oslos borgere kan nyte byens kulturelle tilbud helt gratis."/>
 
 </LinearLayout>
