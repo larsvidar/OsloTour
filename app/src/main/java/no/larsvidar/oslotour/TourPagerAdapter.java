@@ -6,10 +6,11 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class TourPagerAdapter extends FragmentPagerAdapter {
     //The titles of each tab
-    private String tabTitles[] = {"Events", "Food", "Museums", "Historical"};
+    private String[] mTabTitle;
 
-    public TourPagerAdapter(FragmentManager manager) {
+    public TourPagerAdapter(FragmentManager manager, String[] tabTitle) {
         super (manager);
+        mTabTitle = tabTitle;
     }
 
     /**
@@ -44,6 +45,6 @@ public class TourPagerAdapter extends FragmentPagerAdapter {
      */
     @Override
     public CharSequence getPageTitle(int position) {
-        return tabTitles[position];
+        return mTabTitle[position];
     }
 }
